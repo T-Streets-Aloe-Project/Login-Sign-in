@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000; 
+    color: #fff;
+}
+
+section {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form {
+    background-color: #1a1a1a;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    width: 350px;
+}
+
+form h2 {
+    text-align: center;
+    color: #ff6347; /* Accent color for the heading */
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.inputbox {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.inputbox label {
+    display: block;
+    color: #b0b0b0; /* Light gray label color */
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.inputbox input {
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    border: 1px solid #444; /* Slightly darker border */
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.inputbox input::placeholder {
+    color: #999; /* Placeholder text color */
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #6a0dad; /* Purple button */
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #7b1fa2; /* Slightly lighter purple on hover */
+}
+
+button:active {
+    background-color: #550a8a; /* Darker shade when clicked */
+}
